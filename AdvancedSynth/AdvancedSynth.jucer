@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="CCCeEU" name="AdvancedSynth" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.StkDemo" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.4">
+  <MAINGROUP id="cmGOyV" name="AdvancedSynth">
+    <GROUP id="{F4FBF9C7-0560-C8A6-FD05-FA675269065F}" name="Source">
+      <GROUP id="{9632B558-8344-91C4-609C-09219D0AAC9D}" name="stk">
+        <FILE id="cPT8pK" name="SKINI.msg" compile="0" resource="1" file="Source/stk/SKINI.msg"/>
+        <FILE id="hbKAGV" name="WvIn.h" compile="0" resource="0" file="Source/stk/WvIn.h"/>
+        <FILE id="bHpcxg" name="FileRead.cpp" compile="1" resource="0" file="Source/stk/FileRead.cpp"/>
+        <FILE id="GON1V4" name="FileRead.h" compile="0" resource="0" file="Source/stk/FileRead.h"/>
+        <FILE id="jcF8bF" name="FileWrite.cpp" compile="1" resource="0" file="Source/stk/FileWrite.cpp"/>
+        <FILE id="lrt72m" name="FileWrite.h" compile="0" resource="0" file="Source/stk/FileWrite.h"/>
+        <FILE id="d1quf3" name="FileWvIn.cpp" compile="1" resource="0" file="Source/stk/FileWvIn.cpp"/>
+        <FILE id="YI0BR9" name="FileWvIn.h" compile="0" resource="0" file="Source/stk/FileWvIn.h"/>
+        <FILE id="mJpx8f" name="FileLoop.cpp" compile="1" resource="0" file="Source/stk/FileLoop.cpp"/>
+        <FILE id="sYeeK2" name="FileLoop.h" compile="0" resource="0" file="Source/stk/FileLoop.h"/>
+        <FILE id="LSyCXg" name="FM.cpp" compile="1" resource="0" file="Source/stk/FM.cpp"/>
+        <FILE id="Et1D4k" name="FM.h" compile="0" resource="0" file="Source/stk/FM.h"/>
+        <FILE id="kzpRd9" name="TwoZero.cpp" compile="1" resource="0" file="Source/stk/TwoZero.cpp"/>
+        <FILE id="JQ0iJp" name="TwoZero.h" compile="0" resource="0" file="Source/stk/TwoZero.h"/>
+        <FILE id="Mo1rTa" name="BlitSquare.cpp" compile="1" resource="0" file="Source/stk/BlitSquare.cpp"/>
+        <FILE id="lU0zfL" name="BlitSquare.h" compile="0" resource="0" file="Source/stk/BlitSquare.h"/>
+        <FILE id="i1J6sV" name="ADSR.cpp" compile="1" resource="0" file="Source/stk/ADSR.cpp"/>
+        <FILE id="cRgeJE" name="ADSR.h" compile="0" resource="0" file="Source/stk/ADSR.h"/>
+        <FILE id="ptSJgn" name="BiQuad.cpp" compile="1" resource="0" file="Source/stk/BiQuad.cpp"/>
+        <FILE id="Gktxle" name="BiQuad.h" compile="0" resource="0" file="Source/stk/BiQuad.h"/>
+        <FILE id="BxBmxf" name="Filter.h" compile="0" resource="0" file="Source/stk/Filter.h"/>
+        <FILE id="vWDWxf" name="Instrmnt.h" compile="0" resource="0" file="Source/stk/Instrmnt.h"/>
+        <FILE id="mPsDUD" name="BlitSaw.cpp" compile="1" resource="0" file="Source/stk/BlitSaw.cpp"/>
+        <FILE id="cHsZZ4" name="BlitSaw.h" compile="0" resource="0" file="Source/stk/BlitSaw.h"/>
+        <FILE id="nGc7tE" name="Generator.h" compile="0" resource="0" file="Source/stk/Generator.h"
+              xcodeResource="0"/>
+        <FILE id="isH6X5" name="SineWave.cpp" compile="1" resource="0" file="Source/stk/SineWave.cpp"
+              xcodeResource="0"/>
+        <FILE id="nVLiaN" name="SineWave.h" compile="0" resource="0" file="Source/stk/SineWave.h"
+              xcodeResource="0"/>
+        <FILE id="TOdbz0" name="Stk.cpp" compile="1" resource="0" file="Source/stk/Stk.cpp"
+              xcodeResource="0"/>
+        <FILE id="hq8Qqc" name="Stk.h" compile="0" resource="0" file="Source/stk/Stk.h"
+              xcodeResource="0"/>
+      </GROUP>
+      <FILE id="mHadBn" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="nAIeHR" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="StkDemo"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="StkDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="StkDemo"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="StkDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../lib/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="StkDemo"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="StkDemo"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_video" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../lib/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{12108DA9-589A-DC0A-6206-BD64E0D93AC9}") = "StkDemo", "StkDemo.vcxproj", "{FB10B72B-8C5D-3075-0F44-39C222F36CA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB10B72B-8C5D-3075-0F44-39C222F36CA1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FB10B72B-8C5D-3075-0F44-39C222F36CA1}.Debug|Win32.Build.0 = Debug|Win32
+		{FB10B72B-8C5D-3075-0F44-39C222F36CA1}.Release|Win32.ActiveCfg = Release|Win32
+		{FB10B72B-8C5D-3075-0F44-39C222F36CA1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
